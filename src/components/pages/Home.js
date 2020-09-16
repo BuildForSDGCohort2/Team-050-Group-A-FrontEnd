@@ -12,7 +12,7 @@ const Home = () => {
           records in Nigeria to any part of the world.
         </p>
         <div className='access'>
-          <Link to='/sign-up'>
+          <Link to='/login-register'>
             <div
               className='btn'
               style={{ background: '#00e6b0', marginRight: '70px' }}
@@ -20,7 +20,7 @@ const Home = () => {
               Sign up
             </div>
           </Link>
-          <Link to='/log-in'>
+          <Link to='/login-register'>
             <div
               className='btn'
               style={{ background: 'transparent', border: '2px solid #00e6b0' }}
